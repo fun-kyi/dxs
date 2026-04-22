@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    background: linear-gradient(rgba(21, 51, 77, 0.9), #AFAFAF);
+    background-repeat: repeat-x;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.logo {
+    margin-top: 3.125em;
+    margin-bottom: 6.25em;
+}
+
+.heading {
+    margin-top: -3.2em;
+    margin-bottom: 0em;
+}
+
+.runbtn :hover {
+    background-color: rgb(21,51,77);
+    color: white;
+}
+
+#glass-panel {
+    background: rgba(255, 255, 255, 0.005);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+}

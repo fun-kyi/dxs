@@ -5,26 +5,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DxS</title>
         <link rel="icon" href="../images/dxs logo.png">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/test.css">
         <script src="./js/main.js"></script>
     </head>
+
     <body>
-        <div class="logo" style="text-align: center;">
-            <img src="../images/dxs logo.png" alt="DxS" width=15%> 
+        <div class="title">
+            <div class="stick">
+                <div class="titleGrp">
+                    <div class="logo" style="text-align: center;">
+                        <img src="../images/dxs logo.png" alt="DxS" width=70em> 
+                    </div>
+                    <div class="flex-container2">
+                        <div class="heading">
+                            <i><h1 style="font-size: 300%; font-variant: small-caps;">Serenade</h1></i>
+                        </div>
+                        <div class="heading" style="margin-top: -3.2em; margin-bottom: 0em;">
+                            <h1 id="glass-panel">소야곡</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- to place into center, treat it as a division and align-->
-        <div class="heading" style="text-align: center;">
-            <i><h1 style="color: rgb(255, 255, 255); font-size: 300%; font-variant: small-caps;">Serenade</h1></i>
+
+        <div class="imgContainer">
+            <div class="imgStick">
+                <div class="collage">
+                    <img class="img" id="rockstar" src="../images/dk-rockstar.png" style="--top: 0em; --left: 0%; --width: 20%; rotate: -5deg;">
+                    <img class="img" id="cloud" src="../images/sk-cloud.png" style="--top: 1em; --left: 90%; --width: 25%; rotate: 3deg;">
+                    <img class="img" id="sign" src="../images/dksk-sign.png" style="--top: 13em; --left: 110%; --width: 19%; rotate: 11deg;">
+                    <img class="img" id="bow" src="../images/dksk-sign2.jpg" style="--top: 30em; --left: 8%; --width: 12%; rotate: 8deg;">
+                    <img class="img" id="fans" src="../images/dksk-fans.jpg" style="--top: 21em; --left: 0%; --width: 16%; rotate: -15deg;">
+                    <img class="img" id="practice" src="../images/dksk-practice.png" style="--top: 28em; --left: 80%; --width: 8%; rotate: -18deg;">
+                    <img class="img" id="sign2" src="../images/dksk-bow.jpg" style="--top: 35em; --left: 95%; --width: 15%;">
+                    <img class="img" src="../images/sk-butterfly.png" alt="butterfly" style="position: absolute; width: 15%; top: 20%; right: 17%; rotate: -13deg;">
+                    <img class="img" src="../images/sk-butterfly.png" alt="butterfly" style="position: absolute; width: 7%; top: 56%; left: 20%; transform: scaleX(-1);">
+                    <img class="img" src="../images/dk-star.png" alt="star" style="position: absolute; width: 5%; height: 7%; top: 3%; left: 17%;">
+                    <img class="img" src="../images/dk-star.png" alt="star" style="position: absolute; width: 5%; height: 8%; top: 35%; right: 3%;">
+                    <img class="img" src="../images/dk-star.png" alt="star" style="position: absolute; width: 5%; height: 7%; top: 70%; left: 25%;">
+                    <img class="img" src="../images/dk-star.png" alt="star" style="position: absolute; width: 8%; height: 8%; top: 27%; left: 2%;">
+                    <img class="img" src="../images/dk-star.png" alt="star" style="position: absolute; width: 3%; height: 5%; top: 27%; right: 25%;">
+                </div>
+            </div>
         </div>
-        <div class="heading" style="text-align: center; padding-left: 250px; padding-right: 250px;">
-            <h1 id="glass-panel" style="color: rgb(255, 255, 255); font-size: 210%;  text-shadow: 1px 1px 3px; border-radius: 50%;">소야곡</h1>
+
+
+        <div class="stage-action">
+            <div class="flex-container2">
+                <div class="action" style="text-align: center;">
+                    <img id="actionGif" src="../images/action-1-1.png" alt="dxsinaction" style="width: 45%; z-index: 2;">
+                </div>
+                <div class="stage" style="text-align: center; margin-top: -3%;">
+                    <img id="stage" src="../images/stage.png" alt="dxs-stage" style="width: 40%;">
+                </div>
+            </div>
+            <div class="runBtn" style="text-align: center;">
+                <button id="runBtn" type="button">hajimalago!</button>
+            </div>
         </div>
-        <div class="runbtn" style="text-align: center;">
-            <button type="button">Button</button>
+
+        <div class="elem">
         </div>
-        <p style="text-align: center;">Push the button to start the animation.</p>
+
+        <script src="./js/main.js" defer></script>
+
+
     </body>
     <!-- left with wall frames: dksk with carats, dk rockstar, sk -->
-     <!-- use css img {position: absolute, z-index: 1 (according to position/ layer);} -->
+     <!-- use css img {position: absolute, z-index: 1 (according to position/ layer);} background-origin:content-box-->
 <!-- might want to set gif to css img style width 100% for responsive design -->
 </html>

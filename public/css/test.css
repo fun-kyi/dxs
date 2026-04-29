@@ -15,17 +15,14 @@ body {
 
 .title {
     min-height: 100vh;
-    border: solid white 8px;
 }
 
 .stick {
-    min-height: 300vh;
+    min-height: 380vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: solid black 8px;
 }
 
 .titleGrp {
@@ -98,33 +95,28 @@ body {
 
 .imgContainer {
     width: 100%;
-    min-height: 100vh;
+    min-height: 118vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: solid white 5px
 }
 
 .imgStick {
-    min-height: 300vh;
+    min-height: 325vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    border: solid black 8px;
 }
 
 .collage {
     position: relative;
     width: 92%;
-    min-height: 200vh;
+    min-height: 210vh;
     margin-top: 50%;
-    border: solid yellow 8px;
 }
 
 /* .img-wrap {
@@ -141,7 +133,7 @@ body {
     width: var(--width);
     animation: imageReveal both;
     animation-timeline: view();
-    animation-range: entry 0% cover 100%;
+    animation-range: entry 0% cover 80%;
 }
 
 #rockstar, #cloud, #sign, #bow, #fans, #practice, #sign2 {
